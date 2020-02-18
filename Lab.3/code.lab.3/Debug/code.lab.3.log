@@ -1,0 +1,3 @@
+﻿  code.lab.3.cpp
+D:\GItHUB\Laboratory\code.lab.3\code.lab.3.cpp(16,33): warning C4244:  +=: преобразование "double" в "int", возможна потеря данных
+D:\GItHUB\Laboratory\code.lab.3\code.lab.3.cpp(61): error C1075:  "{": не найдена несоответствующая лексема

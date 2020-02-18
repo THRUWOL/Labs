@@ -1,0 +1,3 @@
+﻿  helper.cpp
+D:\GItHUB\Laboratory\code.lab.4\helper.cpp(15,13): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  code.lab.4.vcxproj -> D:\GItHUB\Laboratory\code.lab.4\Debug\code.lab.4.exe
