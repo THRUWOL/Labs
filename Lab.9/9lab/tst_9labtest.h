@@ -81,7 +81,7 @@ TEST(LockController, LOCKDOOR)
     MockIKeypad keypad;
     MockILatch latch;
     LockController *lock = new LockController(&keypad, &latch);
-    EXPECT_CALL(latch, open()).Times(1).WillOnce(Return(DoorStatus::OPEN));
+    EXPECT_CALL(latch, close()).Times(1).WillOnce(Return(DoorStatus::CLOSE));
     DoorStatus res = lock->lockDoor();
     ASSERT_EQ(res, DoorStatus::CLOSE);
     delete lock;
